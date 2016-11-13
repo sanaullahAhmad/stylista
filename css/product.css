@@ -1,0 +1,659 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#0d000a;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	text-align:center;
+}
+
+@font-face
+{
+font-family:"Century Gothic";
+src: url(../type/Gothic.ttf);
+font-family:"Unicorn";
+src:url(../type/UNICORNN.TTF);
+font-family:"Rothni-Normal-Italic";
+src:url(../type/ROTHNINI.TTF);
+}
+
+
+#wrapper
+{
+	width:1300px;
+	height:1000px;
+	margin:0px auto 0px auto;
+	background-color:#0d000a;
+	background-repeat:no-repeat;
+	background-image:url(../images/bg.gif);
+}
+
+#nav-bar
+{
+    font-family:"Century Gothic";
+	font-size:14px;
+	width:1300px;
+	float:left;
+	height:30px;
+	background-color:#0e000b;
+	text-align:right;
+
+}
+
+.nav-bar-links
+{
+	text-decoration:none;
+	color:#777777;
+	padding-top:5px;
+	height:30px;
+	width:75px;
+	display:block;
+	float:right;
+	text-align:center;
+}
+
+.nav-bar-links:hover
+{
+	color:#ffffff;	
+	padding-top:5px;
+	width:75px;
+	height:30px;
+}
+
+#logo
+{
+	float:left;
+	width:500px;
+	height:100px;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#links
+{
+	float:left;
+	width:650px;
+	height:100px;
+	margin-top:0px;
+	margin-left:110px;
+}
+
+#hr
+{
+	float:left;
+	width:1300px;
+	height:3px;
+	margin-top:30px;
+}
+
+
+#products-bar
+{
+	float:left;
+	width:1300px;
+	height:65px;
+	background-color:#0e000b;
+}
+
+#products-bar table
+{
+}
+
+
+#products-bar h4
+{
+	font-family:"Unicorn";
+	font-size:28px;
+	color:#FFF;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#products-bar h5
+{
+    font-family:"Century Gothic";
+	font-size:14px;
+	color:#FFF;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#products-bar h6
+{
+    font-family:"Century Gothic";
+	font-size:14px;
+	color:#FFF;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#products-bar a
+{
+	font-family:"Unicorn";
+	font-size:28px;
+	color:#FFF;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-decoration:none;
+}
+
+#products-bar a:hover
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+.input
+{
+	width:189px;
+	height:28px;
+	background-image:url(../images/input-bg.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	border:none;
+	padding-left:5px;
+}
+
+#products-items
+{
+    font-family:"Century Gothic";
+	font-size:14px;
+	width:1300px;
+	float:left;
+	height:60px;
+	background-color:#2a1124;
+	text-align:center;
+
+}
+
+.products-items-links
+{
+	text-decoration:none;
+	color:#777777;
+	padding-top:10px;
+	height:60px;
+	width:180px;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+.products-items-links:hover
+{
+	color:#999;	
+	padding-top:10px;
+	width:180px;
+	height:60px;
+}
+
+
+.products-items-sep
+{
+	text-decoration:none;
+	padding-top:0px;
+	height:60px;
+	width:3px;
+	display:block;
+	float:left;
+	text-align:center;
+}
+
+
+
+#products-items h4
+{
+    font-family:"Century Gothic";
+	font-size:15px;
+	color:#FFF;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+#products-items h5
+{
+    font-family:"Century Gothic";
+	font-size:10px;
+	color:#8d8c8c;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+
+#main
+{
+	float:left;
+	width:1300px;
+	height:auto;
+	background-color:#FFF;
+        padding-bottom: 5px;
+}
+
+#product
+{
+	float:left;
+	width:180px;
+	height:200px;
+	margin-top:30px;
+}
+
+#product img
+{
+	width:150px;
+	height:150px;
+}
+
+#prd_text
+{
+	float:left;
+	width:200px;
+	height:50px;
+	color:#000;
+}
+
+#prd_text h4
+{
+    font-family:"Century Gothic";
+	font-size:16px;
+	color:#000;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+#prd_text h5
+{
+    font-family:"Century Gothic";
+	font-size:10px;
+	color:#5d5d5d;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+
+#sep
+{
+	float:left;
+	width:3px;
+	height:100px;
+	margin-right:3px;
+	margin-left:3px;
+}
+
+#footer
+{
+	float:left;
+	width:1300px;
+	height:120px;
+	background-color:#2a1124;
+	text-align:left;
+	font-family:"Century Gothic";
+	color:#bcbcbc;
+	font-size:13px;
+	margin-top:10px;
+}
+
+#footer li
+{
+	list-style:none;
+	font-family:"Century Gothic";
+	color:#c4c4c4;
+	font-size:13px;
+}
+
+#footer a
+{
+	text-decoration:none;
+	color:#bcbcbc;
+}
+
+#footer a:hover
+{
+	color:#ffffff;
+}
+#icons
+{
+	float:left;
+	width:1300px;
+	height:90px;
+	background-color:#0e000b;
+}
+
+#icons img
+{
+	padding:10px;
+}
+#text
+{
+	float:left;
+	width:1300px;
+	height:30px;
+	background-color:#2a1124;
+}
+
+#text p
+{
+	vertical-align:middle;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#e9e9e9;
+}
+#follow
+{
+	float:left;
+	width:1300px;
+	height:100px;
+	background-color:#e9e9e9;
+}
+
+#follow img
+{
+	padding-right:8px;
+	padding-left:8px;
+	padding-top:6px;
+}
+
+.follow_image
+{
+	width:78px;
+	height:78px;
+}
+/****************Popup style************8
+*******************/
+#by
+{
+	float:left;
+	width:600px;
+	height:30px;
+	
+	margin-top:0px;
+}
+
+#by h5
+{
+    font-family:"Century Gothic";
+	font-size:12px;
+	color:#ffffff;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:left;
+}
+
+#by h6
+{
+    font-family:"Century Gothic";
+	font-size:10px;
+	color:#ffffff;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:left;
+}
+
+#product-popup
+{
+	float:left;
+	width:600px;
+	height:350px;
+	margin-left:18px;
+	margin-top:65px;
+	background-color:#FFF;
+}
+
+
+#image
+{
+	float:left;
+	width:350px;
+	height:350px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#image img
+{
+	width:350px;
+	height:350px;
+}
+#pick-more
+{
+	float:left;
+	width:600px;
+	height:100px;
+	margin-left:18px;
+	margin-top:5px;
+	background-color:#efefef;
+}
+
+#pick-more h3
+{
+	font-family:"Rothni-Normal-Italic";
+	font-size:18px;
+	width:50px;
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-left:40px;
+	font-weight:100;
+	float:left;
+	color:#8a8b8b;
+	text-align:left;
+}
+
+#pick-more img
+{
+	padding-right:8px;
+	padding-left:8px;
+	padding-top:10px;
+}
+
+.pickmore_image
+{
+	width:80px;
+	height:80px;
+}
+
+#we-picked
+{
+	float:left;
+	width:600px;
+	height:100px;
+	margin-left:18px;
+	margin-top:5px;
+	background-color:#efefef;
+}
+
+#we-picked h3
+{
+	font-family:"Rothni-Normal-Italic";
+	font-size:18px;
+	width:50px;
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-left:40px;
+	font-weight:100;
+	float:left;
+	color:#8a8b8b;
+	text-align:left;
+}
+
+#we-picked img
+{
+	padding-right:1px;
+	padding-left:1px;
+	padding-top:10px;
+}
+
+.we-picked_image
+{
+	width:30px;
+	height:30px;
+}
+
+
+#comments
+{
+	float:left;
+	width:600px;
+	height:100px;
+	margin-left:18px;
+	margin-top:5px;
+	background-color:#efefef;
+}
+
+#comments h3
+{
+	font-family:"Rothni-Normal-Italic";
+	font-size:18px;
+	width:50px;
+	margin-top:15px;
+	margin-bottom:0px;
+	margin-left:40px;
+	font-weight:100;
+	float:left;
+	color:#8a8b8b;
+	text-align:left;
+}
+
+#comments img
+{
+	padding-right:1px;
+	padding-left:1px;
+	padding-top:10px;
+}
+
+.comment
+{
+	width:300px;
+	height:70px;
+	margin-top:10px;
+}
+
+#popup
+{
+	float:left;
+	width:700px;
+	height:750px;
+	margin-top:0px;
+	margin-left:0px;
+	background-image:url(../images/bg.png);
+}
+
+#popup h4
+{
+	font-family:"Unicorn";
+	font-size:46px;
+	color:#FFF;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-weight:100;
+}
+#popup_text
+{
+	float:left;
+	width:230px;
+	height:300px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+#popup_text table
+{
+	width:230px;
+	margin-left:0px;
+	margin-top:30px;
+}
+
+
+#popup_text h5
+{
+    font-family:"Century Gothic";
+	font-size:14px;
+	color:#151515;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:left;
+}
+
+#popup_text h4
+{
+	font-family:"Unicorn";
+	font-size:46px;
+	color:#2a1124;
+	font-weight:100;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-align:left;
+}
+#footer_deal
+{
+	float:left;
+	width:250px;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#footer_deal h4
+{
+	font-family:"Century Gothic";
+	font-size:18px;
+	text-align:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-weight:100;
+	color:#e9e9e9;
+}
+
+#footer_deal h5
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin-top:5px;
+	margin-bottom:0px;
+	font-weight:100;
+	color:#e9e9e9;
+}
+#deals
+{
+	float:left;
+	width:1300px;
+	height:200px;
+	background-color:#0e000b;
+}
+
+#head
+{
+	float:left;
+	width:1300px;
+	height:50px;
+	background-color:#0e000b;
+}
+
+#sep
+{
+	float:left;
+	width:3px;
+	height:100px;
+	margin-right:3px;
+	margin-left:3px;
+}
